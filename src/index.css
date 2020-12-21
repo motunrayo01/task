@@ -546,15 +546,15 @@ ul {
   .work{
     
    margin-left: 1rem;
-    word-wrap: break-word;
+   
     margin-top: 3rem;
     display: grid;
    
   }
   .work div{
     width: 100vw;
-     margin-left: 2rem;
-     padding: 1.3rem;
+     margin-left: 0.8rem;
+     padding: 1rem;
      justify-content: space-evenly;
     
    }
