@@ -16,9 +16,9 @@ class Skills extends Component {
                  
                
                 <div className="row skill">
-              
+             
                     <div className="col-sm-3 ">
-                    <h4 >Top Skills</h4>
+                    
                     <Link to="Home"className="link"><span>Android Developer</span></Link><br/>
                     <Link to="About"className="link"> Customer-Service Representative</Link> <br/>
                     <Link to="Skills"className="link">Front-End Developer</Link> <br/>
@@ -63,11 +63,15 @@ class Skills extends Component {
                   
                     </div>
                     </div>
-               
+                    <div className="container">
+                    <div className="title">
+                    <h4 >Trending Skills</h4>
+                    </div>
+                     
                 <div className="row skill">
                  
                     <div className="col-sm-3">
-                    <h4>Trending skills</h4>
+                   
                     <Link to="Home"className="link">  Apple UIKit</Link><br/>
                     <Link to="About"className="link">   Blockchain</Link> <br/>
                     <Link to="Skills"className="link">  GitLab</Link> <br/>
@@ -111,19 +115,22 @@ class Skills extends Component {
                     <Link to="Portfolio"className="link">  React.js</Link>
                   
                     </div>
-                    
+                    </div>
                     </div> <br/>
                     <center><Button variant="outline-secondary" className="button" sytle={{color:"#6fda44"}}>Browse All Skills</Button></center><br/> 
                     <div className="title">
                         </div>
                         
                     
-                 
+                        <div className="container">
+                    <div className="title">
+                    <h4 >Top Skills in US</h4>
+                    </div>
                
                 <div className="row skill">
                 
                     <div className="col-sm-3">
-                    <h4>Top Skills in US</h4>
+                    
                     <Link to="Home"className="link">  Adobe Illustrator Experts in US</Link><br/>
                     <Link to="About"className="link">    Content Writers in US</Link> <br/>
                     <Link to="Skills"className="link">   Editors in US</Link> <br/>
@@ -159,7 +166,7 @@ class Skills extends Component {
                     
                     </div>
                     </div>
-                    
+                    </div>
                    
                    
                     <div className="title">

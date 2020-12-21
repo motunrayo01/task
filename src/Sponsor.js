@@ -28,6 +28,22 @@ class Sponsor extends Component {
                     </div>
                     </div>
             </div>
+            <div className="container-fluid c">
+                <div className="row sponsors" >
+             
+                   
+                    <div className="col-2">
+                    <img src="https://res.cloudinary.com/morayo/image/upload/v1608379929/airbnb.b562d93_jtw3yu.svg" alt="one" width="70px" />
+                    </div>
+                    <div className="col-2">
+                    <img src="https://res.cloudinary.com/morayo/image/upload/v1608379922/ge.e4f1cde_a0e2tf.svg" alt="one" width="70px"/>
+                    </div>
+                    <div className="col-2 ">
+                        <img src="https://res.cloudinary.com/morayo/image/upload/v1608379652/microsoft.a4ac95d_jfah5q.svg" alt="one" width="100px"/>
+                    </div>
+                   
+                    </div>
+            </div>
             <div className="container-fluid hire">
             <div className="row ">
             
@@ -53,7 +69,7 @@ class Sponsor extends Component {
                    </div>
                     </div>
                     </div>
-                 <div className="container-fluid hired">
+                 <div className="container hired">
             <div className="row">
             <div className="block-group">
                     <div className="col-sm-3 b">

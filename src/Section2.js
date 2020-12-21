@@ -10,7 +10,7 @@ class Section extends Component {
                
                 <div className="header ">
                 <h4 className="d"> Find quality talent or agencies</h4>
-                <div className="container">
+                <div className="container section2">
                
                 <div className="row">
                
@@ -84,7 +84,7 @@ class Section extends Component {
                     </div>
             </div>
             
-                <div className="container section2">
+                <div className="container section3">
                
                 <div className="row">
                 <div className="block-groups">

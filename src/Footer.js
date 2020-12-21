@@ -13,7 +13,7 @@ class Footer extends Component {
                         <div className="row">
 
                             <div className="col-12">
-                               <cennter> <p>Looking to hire for long-term or full-time assignments? See how Upwork Payroll simplifies admin.</p></cennter>
+                               <cennter className="c"> <p>Looking to hire for long-term or full-time assignments? See how Upwork Payroll simplifies admin.</p></cennter>
                                <pre className="pre">_______________________________________________________________________________________________________________________________________________</pre>
                             </div>
                       

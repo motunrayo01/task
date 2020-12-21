@@ -180,12 +180,13 @@
   background: #ffffff;
   height: 15vh;
 }
+
 .rate{
   display: none;
 }
 .hire{
   width: 100vw;
-  height: 70vh;
+  height: 40vh;
   padding-top: 3rem;
   justify-content: space-evenly;
   background: #fffbfb;
@@ -215,10 +216,10 @@
 
 .offer1 div{
   border: thin solid rgba(0, 0, 0, 0.08);
-  height: 80vh;
+  height: 58vh;
   padding: 2rem; 
   line-height: 2rem;
-  box-shadow: 0 10px 20px 0 rgba(224, 222, 222, 0.08);
+ 
   background: #ffffff; 
   justify-content: space-evenly;
   
@@ -264,7 +265,7 @@ ul {
 }
 .skill{
   background: #ffffff;
-  height: 100vh;
+  height: 70vh;
 }
 .skill div{
   line-height: 3rem;
@@ -275,7 +276,7 @@ ul {
   display: none;
 }
 .title{
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .footer{
   
@@ -314,6 +315,9 @@ ul {
 .app{
   float: right;
 }
+.c{
+  display: none;
+}
 
 .pre{
   color:rgba(224, 222, 222, 0.418);
@@ -324,7 +328,7 @@ ul {
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    
+   
   }
   
   .navbar {
@@ -470,17 +474,19 @@ ul {
   .div img{
     width: 15vw;
   }
-  .section2{
+  .section3{
     width: 100vw;
    
     padding-top: 3rem;
     background: #fffbfb;
   }
-  .section2 p{
+  .section3 p{
     margin-top: 2rem;
     text-align: center;
   }
-  
+  .section2{
+    display: none;
+  }
   .navlink{
     color: #ffffff;
     
@@ -508,33 +514,50 @@ ul {
     cursor: pointer;
     text-decoration: none;
   }
-  .sponsor{
+  .sponsor1{
     width: 100vw;
     background: #ffffff;
     height: 15vh;
   }
-  .hired{
+  .sponsor1 img{
+    width: 10vh;
+    margin-left: 2rem;
+  }
+  .sponsor{
+    display: none;
+  }
+  .sponsors
+  {display: none;}
+ 
+  .offer{
+    display: none;
+  }
+  .rate1{
+    display: none;
+  }
+  .work{
+    width:  70vw;
+   
+    word-wrap: break-word;
+    margin-top: 3rem;
+    display: grid;
+   
+  }
+  .work div{
     width: 100vw;
-    height: 70vh;
-    padding-top: 3rem;
-    justify-content: space-evenly;
-    background: #fffbfb;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
-  }
-  .sponsors{
-    
-    padding-left: 0.3rem;
-    margin-top: 5rem;
-    font-size: 1rem;
-  }
+     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+     padding: 1.3rem;
+     justify-content: space-evenly;
+     margin-left: 2rem;
+   }
   
   .b{
     display: none;
   }
   
   .box{
-    height: 40vh;
-  
+    height: 80vh;
+    margin-left: 2rem;
     width: 70vw;
   }
   .box div {
@@ -608,6 +631,9 @@ ul {
     font-size: 1rem;
     margin-top: 3rem;
     margin-left: 1.8rem;
+  }
+  .skill{
+    display: none;
   }
   .title{
     margin-top: 2rem;
