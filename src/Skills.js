@@ -216,12 +216,12 @@ class Skills extends Component {
                     </div>
                     </div>
                     <center><Button variant="outline-secondary" className="button" sytle={{color:"#6fda44"}}>Browse All Skills</Button></center><br/> 
-                    <div className="container">
+                    <div className="container-fluid">
                     <div className="foot">  
                     <div className="row footer">
                         <div className="col-9">
                             <h6 className="talent"> For pre-vetted talent, compliance services and more</h6>
-                            <h1><i>Try Upwork Enterprise</i></h1>
+                            <h3><i>Try Upwork Enterprise</i></h3>
                         </div>
                         <div className="col-3">
                         <Link to="#"><Button className="button" variant="success">Request a Demo</Button></Link>
@@ -231,7 +231,7 @@ class Skills extends Component {
                     </div>
                 </div>
                 </div>
-                <div className="container">
+                <div className="container-fluid">
                     <div className="title">
                     <h4 className="skills">Top Skills</h4>
                     </div>
@@ -438,25 +438,10 @@ class Skills extends Component {
                     
                   
                     </div>
-                    </div>
+                </div>
+                </div>
                   
-             
-                <div className="container">
-                    <div className="foots">  
-                    <div className="row footers">
-                    <div className="block-group">
-                        <div className="col-sm-9">
-                            <h6 className="talent"> For pre-vetted talent, compliance services and more</h6>
-                            <h1><i>Try Upwork Enterprise</i></h1>
-                        </div>
-                        <div className="col-smm-3">
-                        <Link to="#"><Button className="button" variant="success">Request a Demo</Button></Link>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
+           
                 </div>
                 
            

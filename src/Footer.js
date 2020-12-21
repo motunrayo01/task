@@ -8,13 +8,13 @@ class Footer extends Component {
         return ( 
             <div>
                 <div className="footer1">
-                    <div className="container">
+                    <div className="container-fluid">
                         
                         <div className="row">
 
                             <div className="col-12">
-                               <cennter className="c"> <p>Looking to hire for long-term or full-time assignments? See how Upwork Payroll simplifies admin.</p></cennter>
-                               <pre className="pre">_______________________________________________________________________________________________________________________________________________</pre>
+                               <center className="c"> <p>Looking to hire for long-term or full-time assignments? See how Upwork Payroll simplifies admin.</p></center>
+                               <pre className="pre">________________________________________</pre>
                             </div>
                       
                         </div>
@@ -36,7 +36,7 @@ class Footer extends Component {
                             </div>
                             </div>
                             <div className="block-group">
-                            <pre className="pre">_______________________________________________________________________________________________________________________________________________</pre>
+                             <pre className="pre">______________________________</pre>
                             <p>Follow us </p><p><img src="https://res.cloudinary.com/morayo/image/upload/v1608470526/b763699fd1fa3bfb374442593ae642e1_pdazsx.png" alt="fb" width="30px"/><img src="https://res.cloudinary.com/morayo/image/upload/v1608470712/download_3_l485le.png" alt="fb" width="25px"/>
                            <img src="https://res.cloudinary.com/morayo/image/upload/v1608471574/images_3_udxsc6.png" alt="fb" width="25px"/>
                             <img src="https://res.cloudinary.com/morayo/image/upload/v1608471583/download_6_ktih4e.png" alt="fb" width="25px"/>
@@ -44,7 +44,7 @@ class Footer extends Component {
                             <p >Mobile app </p> <p><img src="https://res.cloudinary.com/morayo/image/upload/v1608472527/download_8_ic9eqg.png" alt="fb" width="25px"/>
                             <img src="https://res.cloudinary.com/morayo/image/upload/v1608472444/38005-android-logo-icon-vector-icon-vector-eps_mleu20.png" alt="fb" width="25px"/></p>
                          
-                           <pre className="pre">_______________________________________________________________________________________________________________________________________________</pre>
+                          <pre className="pre">_____________________________</pre>
                             <center><p>&#xa9;2015 - 2020 Upwork® Global Inc.</p></center>
                     </div>
                     </div>
@@ -53,7 +53,7 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12">
-                               <cennter> <p>Looking to hire for long-term or full-time assignments? See how Upwork Payroll simplifies admin.</p></cennter>
+                              <p>Looking to hire for long-term or full-time assignments? See how Upwork Payroll simplifies admin.</p>
                                <pre className="pre">_______________________________________________________________________________________________________________________________________________</pre>
                             </div>
                         </div>

@@ -41,21 +41,22 @@ class Works extends Component {
                 
             </div>
           
-                <h1><center >  How it works</center></h1>
-                <div className="row work" >
-                <div className="block-group">
-                    <div className="col-sm-3" >
+              
+                <div className="row work"  >
+               
+                <div className="block-group ">
+                    <div className="col-sm-3 workdiv"  >
             
                        <strong>1. Post a job</strong>
                        <p>Tell us about your project. Upwork connects you with top talent and agencies around the world, or near you.</p> 
                     </div>
-                    <div className="col-sm-3">
+                    <div className="col-sm-3 workdiv">
                 
                     <strong> 2. Bids come to you</strong>
                     <p>Get qualified proposals within 24 hours. Compare bids, reviews, and prior work. Interview favorites and hire the best fit.</p>
                     </div>
 
-                    <div className="col-sm-3 ">
+                    <div className="col-sm-3 workdiv">
               
                     <strong>3. Collaborate easily</strong>
                     <p>Use Upwork to chat or video call, share files, and track project milestones from your desktop or mobile.</p>

@@ -186,8 +186,9 @@
 }
 .hire{
   width: 100vw;
-  height: 40vh;
+  height: 50vh;
   padding-top: 3rem;
+  
   justify-content: space-evenly;
   background: #fffbfb;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
@@ -200,12 +201,12 @@
   margin-top: 5rem;
 }
 .b{
-  margin-left: 2rem;
+  margin-left: 5rem;
 }
 .box{
   height: 40vh;
- 
-  width: 70vw;
+
+  width: 60vw;
 }
 .box div {
   float: left;
@@ -216,10 +217,10 @@
 
 .offer1 div{
   border: thin solid rgba(0, 0, 0, 0.08);
-  height: 58vh;
+  height: 80vh;
   padding: 2rem; 
   line-height: 2rem;
- 
+  box-shadow: 0 10px 20px 0 rgba(224, 222, 222, 0.08);
   background: #ffffff; 
   justify-content: space-evenly;
   
@@ -265,7 +266,7 @@ ul {
 }
 .skill{
   background: #ffffff;
-  height: 70vh;
+  height: 100vh;
 }
 .skill div{
   line-height: 3rem;
@@ -276,7 +277,7 @@ ul {
   display: none;
 }
 .title{
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .footer{
   
@@ -333,13 +334,14 @@ ul {
   
   .navbar {
     position: fixed;
-    display: flex;
-    flex-wrap: wrap;
+    
     align-items: center;
     justify-content: space-between;
     padding: .5rem 1rem;
   }
-  
+  .Navbar2{
+    display: none;
+  }
   .up{ 
     color:#ffffff;
   }
@@ -352,14 +354,13 @@ ul {
     flex-direction: row;
     position: fixed;
     height: 10vh;
-    width: 100%;
-    z-index: 99999;
+    width: 100%; 
     top: 0;
     left: 0;
     opacity: 1;
     }
     .brand{
-      margin-left: 10rem;
+      margin-left: 1rem;
     }
   .nav{
     justify-content: space-evenly;
@@ -367,34 +368,15 @@ ul {
     
   }
   .input{
+    display: none;
     background-color: #346279;
     border-radius: 2rem;
     height: 5vh;
-    width: 20vw;
-    margin:2rem;
+    width: 10vw;
+   
     
   }
-  .second-menu {
-    display: none;
-    --nav-secondary-bg: var(--bg-6);
-    position: absolute;
-    width: 100%;
-    transition: transform .35s ease-out;
-    transform: translateY(0);
-    background: var(--nav-secondary-bg);
-    border-top: var(--border-base);
-    border-bottom: none;
-    border-bottom: var(--nav-secondary-border,none);
-    box-shadow: var(--drop-shadow);
-  }
-  
-  .second-icon{
-    display: none;
-    justify-content: space-evenly;
-    width: 100%;
-    margin-left: 7rem;
-  }
-  
+    
   .one{
    font-size: 0.5rem;
    color:#6fda44;
@@ -528,16 +510,24 @@ ul {
   }
   .sponsors
   {display: none;}
- 
-  .offer{
+  .hire{
+    width: 90vw;
+    height: 100vh;
+    padding: 2rem;
+    
+    background: #fffbfb;
+    
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+  }
+  .offer1{
     display: none;
   }
   .rate1{
     display: none;
   }
   .work{
-    width:  70vw;
-   
+    width:  100vw;
+   margin-left: 1rem;
     word-wrap: break-word;
     margin-top: 3rem;
     display: grid;
@@ -545,22 +535,24 @@ ul {
   }
   .work div{
     width: 100vw;
-     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+     
      padding: 1.3rem;
      justify-content: space-evenly;
-     margin-left: 2rem;
+     margin-left: 4rem;
    }
+   
   
   .b{
     display: none;
   }
   
   .box{
-    height: 80vh;
+    
     margin-left: 2rem;
     width: 70vw;
   }
   .box div {
+    height: 30vh;
     float: left;
     border: thin solid rgba(0, 0, 0, 0.08);
     padding: 1.1rem;
@@ -572,7 +564,7 @@ ul {
  } 
   .offer1 div{
     border: thin solid rgba(0, 0, 0, 0.08);
-    height: 80vh;
+    height: 100vh;
     padding: 2rem; 
     line-height: 2rem;
     box-shadow: 0 10px 20px 0 rgba(224, 222, 222, 0.08);
@@ -618,7 +610,7 @@ ul {
     
   }
   .page div{
-    margin-left: 10rem;
+    margin-left: 1rem;
     margin-top: 4rem;
   }
   .skills{
@@ -632,9 +624,6 @@ ul {
     margin-top: 3rem;
     margin-left: 1.8rem;
   }
-  .skill{
-    display: none;
-  }
   .title{
     margin-top: 2rem;
   }
@@ -643,11 +632,12 @@ ul {
     margin-top: 1rem;
     border:thin solid rgba(224, 222, 222, 0.08);
   }
-  .foots{
+  .foot{
     padding: 1rem;
     border: thin solid rgba(17, 1, 1, 0.08);
     height: 35vh;
-    width: 70vw;
+    width: 100vw;
+    font-size: 6rem;
   }
   .footer1{
     background: #2b5468;
@@ -669,7 +659,8 @@ ul {
     text-decoration: underline;
   }
   .talent{
-    color: #6fda44;;
+    color: #6fda44;
+    font-size: 1rem;
   }
   .footer1 img{
     margin:1rem;

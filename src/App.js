@@ -9,6 +9,7 @@ import Works from './Works';
 import Safepage from './Safepage';
 import Skills from './Skills';
 import Footer from './Footer';
+import Navbar2 from './Navbar2';
 
 
 
@@ -20,6 +21,7 @@ function App(){
                 
             <BrowserRouter>
                 <Navbar/>
+                <Navbar2/>
                 
                 <Route>
                 
