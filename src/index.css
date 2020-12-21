@@ -547,7 +547,7 @@ ul {
   }
   .work{
     
-   margin-left: 1rem;
+   
    
     margin-top: 3rem;
    
@@ -555,7 +555,7 @@ ul {
   }
   .work div{
     width: 80vw;
-     margin-left: 0.8rem;
+     margin-left: 0.5rem;
      padding: 1rem;
      display: block;
    }
@@ -581,7 +581,7 @@ ul {
  } 
   .offer1 div{
     border: thin solid rgba(0, 0, 0, 0.08);
-    height: 100vh;
+    height: 85vh;
     padding: 2rem; 
     line-height: 2rem;
     box-shadow: 0 10px 20px 0 rgba(224, 222, 222, 0.08);
@@ -590,6 +590,9 @@ ul {
     margin-left: 3rem;
     width: 75vw;
     
+  }
+  .offer1 p{
+    margin-left: 2rem;
   }
   .offer button{
    
