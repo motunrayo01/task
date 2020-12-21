@@ -25,10 +25,6 @@ function App(){
                 
                 <Route>
                 
-               
-                
-                </Route>
-                
                 <Demand/>
                 <Section/>
                 <Sponsor/>
@@ -36,6 +32,10 @@ function App(){
                 <Safepage/>
                 <Skills/>
                 <Footer/>
+                
+                </Route>
+                
+               
                  
                        
                    

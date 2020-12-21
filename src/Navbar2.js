@@ -8,6 +8,7 @@ class Navbar2 extends Component {
     render() { 
         return (  
             <div>
+               
                 <div className="Navbar2">
             <Navbar  expand="lg bg-light second-menu">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -32,6 +33,7 @@ class Navbar2 extends Component {
             </Navbar>
             </div>
             </div>
+           
         );
     }
 }

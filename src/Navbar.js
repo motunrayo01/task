@@ -10,7 +10,7 @@ class navbar extends Component{
 render(){
     return(
         <div>
-      
+        
       <Navbar  expand="lg icon">
         <div className="brand">
       <h4 className ="up"> <i>UP</i>Work</h4>
@@ -36,8 +36,7 @@ render(){
         </Navbar.Collapse>
       </Navbar>
     
-      </div>
-     
+      </div> 
 
 
       

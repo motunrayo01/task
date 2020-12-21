@@ -45,7 +45,7 @@ class Footer extends Component {
                             <img src="https://res.cloudinary.com/morayo/image/upload/v1608472444/38005-android-logo-icon-vector-icon-vector-eps_mleu20.png" alt="fb" width="25px"/></p>
                          
                           <pre className="pre">_____________________________</pre>
-                            <center><p>&#xa9;2015 - 2020 Upwork® Global Inc.</p></center>
+                           <p>&#xa9;2015 - 2020 Upwork® Global Inc.</p>
                     </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ class Footer extends Component {
                                 <Link to="Portfolio"className="company"> Accessibility</Link> <br/>
                                 <Link to="Home"className="company"> </Link>  <br/>
                                         </div>
-                            <div className="col-sm-4 company">
+                            <div className="col-sm-4 ">
                                 <h5>RESOURCES</h5>
                                 <Link to="Home"className="company"> Resources</Link> <br/>
                                 <Link to="About"className="company"> Customer Suppor</Link> <br/>
@@ -82,7 +82,7 @@ class Footer extends Component {
                                 <Link to="Skills"className="company"> Upwork Reviews</Link> <br/>
                                
                             </div>
-                            <div className="col-sm-4 company">
+                            <div className="col-sm-4 ">
                                 <h5>BROWSE</h5>
                                 <Link to="Home"className="company"> Freelancers by Skill</Link> <br/>
                                 <Link to="About"className="company"> Freelancers in USA</Link> <br/>

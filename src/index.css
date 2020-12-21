@@ -27,7 +27,7 @@
   flex-direction: row;
   position: fixed;
   height: 10vh;
-  width: 100%;
+  width: 100vw;
   z-index: 99999;
   top: 0;
   left: 0;
@@ -102,20 +102,20 @@
 .demand{
   background: #346279;
   height: 90vh;
-  padding-left: 10rem;
-  padding-top: 3rem;
+  padding-left: 5rem;
+  padding-top: 5rem;
   color: #ffffff;
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
-  
+  width: 100vw;
 }
 .demands{
   background: #346279;
   height: 90vh;
 }
-.demands img{
-  width: 80vh;
-  height: 90vh;
+.demand img{
+  width: 70vh;
+  height: 50vh;
 }
 .header{
   width: 100vw;
@@ -261,7 +261,7 @@ ul {
   
 }
 .page div{
-  margin-left: 10rem;
+  margin-left: 5rem;
   margin-top: 4rem;
 }
 .skill{
@@ -330,6 +330,9 @@ ul {
     box-sizing: border-box;
     font-family: sans-serif;
    
+  }
+  html{
+    overflow: hidden;
   }
   
   .navbar {
@@ -407,20 +410,16 @@ ul {
   .demand{
     background: #346279;
     height: 50vh;
-    padding-left: 2rem;
+    margin-top: 1rem;
+    padding-left: 10rem;
     padding-top: 3rem;
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
-    width:100vh;
+    
   }
-  .demands{
-    background: #346279;
-    width: 50vh;
-    height: 50vh;
-  }
-  .demands img{
-    width: 35vh;
+  .demand img{
+    width: 25vh;
     height: 30vh;
   }
   .block-group{
@@ -435,7 +434,7 @@ ul {
   }
   
   .header{
-    width: 100%;
+    width: 100vw;
     font-size: 1rem;
     padding-top: 3rem;
     justify-content: space-evenly;
