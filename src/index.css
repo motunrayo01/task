@@ -102,17 +102,16 @@
 .demand{
   background: #346279;
   height: 90vh;
-  padding-left: 5rem;
-  padding-top: 5rem;
+  padding-left: 3rem;
+ 
   color: #ffffff;
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
   width: 100vw;
+  padding-top: 10rem;
 }
-.demands{
-  background: #346279;
-  height: 90vh;
-}
+
+
 .demand img{
   width: 70vh;
   height: 50vh;
@@ -353,13 +352,14 @@ ul {
     display: grid;
     background-color: #2b5468;
     flex-direction: row;
+    flex-grow: wrap;
     position: fixed;
     height: 10vh;
     padding: 1rem;
     
     }
     .brand{
-      margin-left: 1rem;
+      margin-left: 0.6rem;
     }
   .nav{
     justify-content: space-evenly;
@@ -406,16 +406,18 @@ ul {
   .demand{
     background: #346279;
     height: 50vh;
-    margin-top: 1rem;
+    width: 100vw;
     padding-left: 5rem;
-    padding-top: 3rem;
+    padding-top: 5rem;
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     
   }
+ 
   .demand img{
-    width: 25vh;
+    display: none;
+    width: 20vh;
     height: 30vh;
   }
   .block-group{
@@ -630,9 +632,12 @@ ul {
   .foot{
     padding: 1rem;
     border: thin solid rgba(17, 1, 1, 0.08);
-    height: 35vh;
-    width: 100vw;
+    height: 38vh;
+    width: 75vw;
     font-size: 6rem;
+  }
+  .foot button{
+   display: none;
   }
   .footer1{
     background: #2b5468;
