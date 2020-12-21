@@ -331,9 +331,7 @@ ul {
     font-family: sans-serif;
    
   }
-  html{
-    overflow: hidden;
-  }
+  
   
   .navbar {
     position: fixed;
@@ -352,7 +350,7 @@ ul {
     color: #6fda44;
   }
   .icon{
-    display: flex;
+    display: grid;
     background-color: #2b5468;
     flex-direction: row;
     position: fixed;
@@ -411,7 +409,7 @@ ul {
     background: #346279;
     height: 50vh;
     margin-top: 1rem;
-    padding-left: 10rem;
+    padding-left: 5rem;
     padding-top: 3rem;
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
@@ -537,7 +535,7 @@ ul {
      
      padding: 1.3rem;
      justify-content: space-evenly;
-     margin-left: 4rem;
+    
    }
    
   
