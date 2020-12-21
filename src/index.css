@@ -31,12 +31,10 @@
   background-color: #2b5468;
   flex-direction: row;
   position: fixed;
-  height: 10vh;
+  height: 12vh;
   width: 100vw;
   z-index: 99999;
-  top: 0;
-  left: 0;
-  opacity: 1;
+  padding-top: 1rem;
   }
   .brand{
     margin-left: 10rem;
@@ -422,16 +420,12 @@ ul {
     background: #346279;
     height: 50vh;
     width: 100%;
-    padding-left: 5rem;
+    padding-left: 3rem;
     padding-top: 10rem;
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
-    word-wrap: break-word;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-
+   
   }
   
   
@@ -440,14 +434,26 @@ ul {
     width: 20vh;
     height: 30vh;
   }
-  
+  .block-group{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 9px;
+  }
+  .block-groups{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 9px;
+  }
   .images div{
     margin-left: 2rem;
     
   }
+  .images p{
+  margin-left: 3rem;
+  }
   
   .header{
-    width: 100%;
+    width: 100vw;
     font-size: 1rem;
     padding-top: 3rem;
     justify-content: space-evenly;
@@ -524,13 +530,16 @@ ul {
   .sponsors
   {display: none;}
   .hire{
-    width: 90vw;
-    height: 100vh;
+    height: 80vh;
+    overflow: hidden;
     padding: 2rem;
     
     background: #fffbfb;
     
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+  }
+  .hire b{
+    margin-top: 2rem;
   }
  
   .rate1{
@@ -541,33 +550,30 @@ ul {
    margin-left: 1rem;
    
     margin-top: 3rem;
-    display: grid;
+   
    
   }
   .work div{
-    width: 100vw;
+    width: 80vw;
      margin-left: 0.8rem;
      padding: 1rem;
-     justify-content: space-evenly;
-    
+     display: block;
    }
    
   
-  .b{
-    display: none;
-  }
+ 
   
   .box{
-    height: 100%;
-    margin-left: 2rem;
-    width: 70vw;
+    height: 100vh;
+    margin-left: 3rem;
+    width: 100vw;
   }
   .box div {
-    height: 30vh;
+    height: 20vh;
     float: left;
     border: thin solid rgba(0, 0, 0, 0.08);
     padding: 1.1rem;
-    display: block;
+    
   }
   
  .group{
@@ -580,8 +586,9 @@ ul {
     line-height: 2rem;
     box-shadow: 0 10px 20px 0 rgba(224, 222, 222, 0.08);
     background: #ffffff; 
-    
-    margin-left: 0.8rem;
+   
+    margin-left: 3rem;
+    width: 75vw;
     
   }
   .offer button{
@@ -592,12 +599,10 @@ ul {
     color: #3f3e3e;
     font-size: 0.8rem;
   }
-  .offer1{
-    display: none;
-  }
+  
   ul {
     list-style-type: '\2713';
-    margin-right: 1rem;
+   
   }
   .rate1{
     height: 30vh;
@@ -621,7 +626,7 @@ ul {
     
   }
   .page div{
-    margin-left: 1rem;
+    margin-left: 3rem;
     margin-top: 4rem;
   }
   .skill{

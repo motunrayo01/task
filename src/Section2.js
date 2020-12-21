@@ -99,7 +99,7 @@ class Section extends Component {
                        <div><h6 className="linksdiv">Engineering & Arhitecture</h6></div></Link> 
                     </div>
                     </div>
-                    <p className="block-groups"><center>Don’t see what you’re looking for?<br/> <Link to= "/#">See all categories</Link></center></p>
+                    <p className="block-groups">Don’t see what you’re looking for?<br/> <Link to= "/#">See all categories</Link></p>
                     </div>
                     </div> 
                     </div>
