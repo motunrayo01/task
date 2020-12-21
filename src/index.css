@@ -355,17 +355,15 @@ ul {
     flex-direction: row;
     position: fixed;
     height: 10vh;
-    width: 100%; 
-    top: 0;
-    left: 0;
-    opacity: 1;
+    padding: 1rem;
+    
     }
     .brand{
       margin-left: 1rem;
     }
   .nav{
     justify-content: space-evenly;
-    width: 100%;
+    
     
   }
   .input{
