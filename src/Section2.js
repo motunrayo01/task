@@ -61,7 +61,7 @@ class Section extends Component {
                     </div>
                    
               
-                <div className="container">
+                <div className="container-fluid">
                
                 <div className="row">
                 <div className="block-groups">
