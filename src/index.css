@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: sans-serif;
   
+  overflow-x: hidden;
+  
+
+  
 }
 
 .navbar {
@@ -328,7 +332,8 @@ ul {
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    
+  
+   
   }
  body{
    width: 100%;
@@ -419,7 +424,11 @@ ul {
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
-    
+    word-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
   }
   
   .demand img{
@@ -439,6 +448,7 @@ ul {
   }
   .images div{
     margin-left: 2rem;
+    
   }
   
   .header{
@@ -468,6 +478,7 @@ ul {
    margin-left: 5rem;
     padding-top: 3rem;
     background: #fffbfb;
+    
   }
   .section3 p{
     margin-top: 2rem;
@@ -533,7 +544,7 @@ ul {
     display: none;
   }
   .work{
-    width:  100vw;
+    
    margin-left: 1rem;
     word-wrap: break-word;
     margin-top: 3rem;
@@ -542,7 +553,7 @@ ul {
   }
   .work div{
     width: 100vw;
-     margin-left: 3rem;
+     margin-left: 2rem;
      padding: 1.3rem;
      justify-content: space-evenly;
     

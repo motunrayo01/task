@@ -41,7 +41,7 @@ class Works extends Component {
                 
             </div>
           
-              
+              <div className="container-fluid">
                 <div className="row work"  >
                
                 <div className="block-group ">
@@ -62,7 +62,7 @@ class Works extends Component {
                     <p>Use Upwork to chat or video call, share files, and track project milestones from your desktop or mobile.</p>
                     </div>
                     </div>
-                 
+                    </div>
                     
                 
             </div>
