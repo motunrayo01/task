@@ -366,6 +366,7 @@ ul {
     padding: 1rem;
     z-index: 99999;
     top: 0;
+    overflow: auto;
     left: 0;
     opacity: 1;
     }
@@ -376,8 +377,8 @@ ul {
     }
   .nav{
     justify-content: space-evenly;
-    
-    
+   
+    height: 100vh;
   }
   .input{
     display: none;
