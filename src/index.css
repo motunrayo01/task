@@ -349,7 +349,7 @@ ul {
     color: #6fda44;
   }
   .icon{
-    display: grid;
+    display: flex;
     background-color: #2b5468;
     flex-direction: row;
     flex-grow: wrap;
