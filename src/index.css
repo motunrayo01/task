@@ -330,8 +330,7 @@ ul {
     font-family: sans-serif;
    
   }
-  Html{ 
-    overflow-y:hidden}
+ 
   
   .navbar {
     position: fixed;
@@ -461,7 +460,7 @@ ul {
   }
   .section3{
     width: 100vw;
-   
+   margin-left: 5rem;
     padding-top: 3rem;
     background: #fffbfb;
   }
